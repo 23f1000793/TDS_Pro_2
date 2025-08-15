@@ -23,7 +23,7 @@ COPY index.html .
 COPY entrypoint.sh .
 
 # Copy environment file if it exists
-COPY .env* ./
+#COPY .env* ./
 
 # Make entrypoint script executable
 RUN chmod +x entrypoint.sh
